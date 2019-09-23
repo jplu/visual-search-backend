@@ -1,5 +1,5 @@
 # visual-search-backend
-Backend for the visual search prototype
+BFF over a Tensorflow and FAISS gRPC server for visual search.
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-go.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/uses-badges.svg)](https://forthebadge.com)
 
