@@ -2,9 +2,9 @@
 FROM golang:latest AS builder
 
 # Prerequisites
-RUN mkdir -p $GOPATH/src/github.mpi-internal.com/leboncoin-lab/visual-search-backend
-ADD . $GOPATH/src/github.mpi-internal.com/leboncoin-lab/visual-search-backend
-WORKDIR $GOPATH/src/github.mpi-internal.com/leboncoin-lab/visual-search-backend
+RUN mkdir -p $GOPATH/src/github.com/jplu/visual-search-backend
+ADD . $GOPATH/src/github.com/jplu/visual-search-backend
+WORKDIR $GOPATH/src/github.com/jplu/visual-search-backend
 
 # Build
 ARG build
