@@ -7,6 +7,15 @@ BFF over a Tensorflow and FAISS index gRPC server for visual search.
 * gRPC server providing the [Tensorflow model](https://github.com/jplu/visual-search-scripts)
 * gRPC server providing the [FAISS index](https://github.com/jplu/faiss-grpc-server)
 
+And then install Tensorflow and Tensorflow serving Go packages:
+```
+git clone -b r1.15 https://github.com/tensorflow/tensorflow.git
+git clone -b r1.15 https://github.com/tensorflow/serving.git
+GO111MODULE=off go run protoc.go
+cd proto/tensorflow/core && go mod init github.com/tensorflow/tensorflow/tensorflow/go/core && cd -
+go build ./proto/tensorflow/serving
+```
+
 ## Compiling and creating the Docker image
 
 Compiling:

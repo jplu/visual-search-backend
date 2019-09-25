@@ -6,12 +6,6 @@
 // protobuf compiler plugin, Go modules, and definitions of TensorFlow and
 // TensorFlow Serving proto files. It assumes that protoc and protoc-gen-go are
 // on your PATH.
-//
-//	git clone -b r1.15 https://github.com/tensorflow/tensorflow.git
-//	git clone -b r1.15 https://github.com/tensorflow/serving.git
-//	GO111MODULE=off go run protoc.go
-//	cd proto/tensorflow/core && go mod init github.com/tensorflow/tensorflow/tensorflow/go/core && cd -
-//	go build ./proto/tensorflow/serving
 package main
 
 import (
