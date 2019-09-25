@@ -2,7 +2,7 @@ package uc
 
 import (
 	"bytes"
-	"github.mpi-internal.com/leboncoin-lab/visual-search-backend/domain"
+	"github.com/jplu/visual-search-backend/domain"
 	"io"
 	"mime/multipart"
 	"net/http"

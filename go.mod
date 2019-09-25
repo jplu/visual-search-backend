@@ -1,4 +1,4 @@
-module github.mpi-internal.com/leboncoin-lab/visual-search-backend
+module github.com/jplu/visual-search-backend
 
 require (
 	github.com/gin-contrib/cors v0.0.0-20181008113111-488de3ec974f

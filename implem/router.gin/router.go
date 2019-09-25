@@ -1,7 +1,7 @@
 package router
 
 import (
-	"github.mpi-internal.com/leboncoin-lab/visual-search-backend/uc"
+	"github.com/jplu/visual-search-backend/uc"
 	"net/http"
 
 	"github.com/gin-gonic/gin"

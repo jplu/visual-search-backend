@@ -2,9 +2,9 @@ package image
 
 import (
 	"context"
+	pb "github.com/jplu/visual-search-backend/proto/tensorflow/serving"
+	"github.com/jplu/visual-search-backend/uc"
 	tf "github.com/tensorflow/tensorflow/tensorflow/go/core/framework"
-	pb "github.mpi-internal.com/leboncoin-lab/visual-search-backend/proto/tensorflow/serving"
-	"github.mpi-internal.com/leboncoin-lab/visual-search-backend/uc"
 	"google.golang.org/grpc"
 	"log"
 	"strconv"

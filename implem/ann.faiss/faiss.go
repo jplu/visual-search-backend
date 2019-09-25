@@ -2,8 +2,8 @@ package faiss
 
 import (
 	"context"
-	"github.mpi-internal.com/leboncoin-lab/visual-search-backend/domain"
-	"github.mpi-internal.com/leboncoin-lab/visual-search-backend/uc"
+	"github.com/jplu/visual-search-backend/domain"
+	"github.com/jplu/visual-search-backend/uc"
 	"google.golang.org/grpc"
 	"log"
 	"strconv"

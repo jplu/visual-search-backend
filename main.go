@@ -2,15 +2,15 @@ package main
 
 import (
 	"fmt"
+	"github.com/jplu/visual-search-backend/cmd"
+	"github.com/jplu/visual-search-backend/implem/ann.faiss"
+	"github.com/jplu/visual-search-backend/implem/features.image"
+	"github.com/jplu/visual-search-backend/implem/router.gin"
+	"github.com/jplu/visual-search-backend/infra"
+	"github.com/jplu/visual-search-backend/uc"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.mpi-internal.com/leboncoin-lab/visual-search-backend/cmd"
-	"github.mpi-internal.com/leboncoin-lab/visual-search-backend/implem/ann.faiss"
-	"github.mpi-internal.com/leboncoin-lab/visual-search-backend/implem/features.image"
-	"github.mpi-internal.com/leboncoin-lab/visual-search-backend/implem/router.gin"
-	"github.mpi-internal.com/leboncoin-lab/visual-search-backend/infra"
-	"github.mpi-internal.com/leboncoin-lab/visual-search-backend/uc"
 )
 
 // Build number and versions injected at compile time, set yours

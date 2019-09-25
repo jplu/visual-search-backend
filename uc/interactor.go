@@ -1,7 +1,7 @@
 package uc
 
 import (
-	"github.mpi-internal.com/leboncoin-lab/visual-search-backend/domain"
+	"github.com/jplu/visual-search-backend/domain"
 	"mime/multipart"
 )
 

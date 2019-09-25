@@ -22,16 +22,16 @@ func AddAnnFlags(c *cobra.Command) {
 	c.PersistentFlags().Int("ann.port", 8080, "port on which the ANN gRPC server should listen")
 }
 
-// AddImageFlags add support to configure the ANN gRPC server
+// AddImageFlags add support to configure the Image gRPC server
 func AddImageFlags(c *cobra.Command) {
 	c.PersistentFlags().String("img.host", "localhost", "host on which the Image gRPC server should listen")
-	c.PersistentFlags().Int("img.port", 8080, "port on which the ANN gRPC server should listen")
+	c.PersistentFlags().Int("img.port", 8500, "port on which the Image gRPC server should listen")
 }
 
 // AddServerFlags adds support to configure the server
 func AddServerFlags(c *cobra.Command) {
 	// Server related flags
-	c.PersistentFlags().String("server.host", "localhost", "host on which the server should listen")
+	c.PersistentFlags().String("server.host", "0.0.0.0", "host on which the server should listen")
 	c.PersistentFlags().Int("server.port", 8081, "port on which the server should listen")
 	c.PersistentFlags().String("server.mode", "debug", "server mode can be either 'debug', 'test' or 'release'")
 

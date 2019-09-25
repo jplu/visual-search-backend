@@ -2,7 +2,7 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.mpi-internal.com/leboncoin-lab/visual-search-backend/domain"
+	"github.com/jplu/visual-search-backend/domain"
 	"mime/multipart"
 	"net/http"
 )
