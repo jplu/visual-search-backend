@@ -8,7 +8,7 @@
 // on your PATH.
 //
 //	git clone -b r1.15 https://github.com/tensorflow/tensorflow.git
-//	git clone -b r1.14 https://github.com/tensorflow/serving.git
+//	git clone -b r1.15 https://github.com/tensorflow/serving.git
 //	go run protoc.go
 //	go mod edit -replace=github.com/tensorflow/tensorflow/tensorflow/go/core=./proto/tensorflow/core
 //	cd proto/tensorflow/core && go mod init github.com/tensorflow/tensorflow/tensorflow/go/core && cd -
